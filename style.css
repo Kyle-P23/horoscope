@@ -1,0 +1,46 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+html{
+  background: url('img/zodiac.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  margin:6% 0% 0% 40%;
+  background-color: rgba(156, 59, 50, 0.24);
+}
+input {
+  color: black;
+}
+button {
+  color: black;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
